@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tg-bot"
+version = "0.1.0"
+description = ""
+authors = ["Roman Slipchuk <roman.slipchuk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tg_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyTelegramBotAPI = "^4.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
