@@ -1,5 +1,5 @@
 import telebot
-from auth_token import token
+from logs.auth_token import token
 
 bot = telebot.TeleBot(token)
 
