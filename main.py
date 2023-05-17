@@ -3,6 +3,15 @@ from logs.auth_token import token
 
 bot = telebot.TeleBot(token)
 
+"""
+TODO: 
+0. Add vendors buttons 
+1. Add request to Wates site
+2. Add parsing respond
+2-a Create docker image to run on server
+3. Add server in amazon
+"""
+
 
 @bot.message_handler(commands=['start'])
 def start(message):
