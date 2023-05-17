@@ -1,1 +1,4 @@
 __pycache__/auth_token.cpython-310.pyc
+auth_token.py
+*.venv
+*.vscode
